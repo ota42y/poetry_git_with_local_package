@@ -1,0 +1,56 @@
+[[package]]
+name = "absl-py"
+version = "0.11.0"
+description = ""
+category = "main"
+optional = false
+python-versions = "*"
+develop = false
+
+[package.dependencies]
+six = "*"
+
+[package.source]
+type = "git"
+url = "https://github.com/abseil/abseil-py.git"
+reference = "c99edd8e3dffe3667a9f086db86aa259927ac429"
+resolved_reference = "c99edd8e3dffe3667a9f086db86aa259927ac429"
+
+[[package]]
+name = "ota42y-python-package-test"
+version = "0.1.0"
+description = ""
+category = "main"
+optional = false
+python-versions = "^3.8"
+develop = false
+
+[package.dependencies]
+absl-py = "rev c99edd8e3dffe3667a9f086db86aa259927ac429"
+
+[package.source]
+type = "git"
+url = "https://github.com/ota42y/ota42y_python_package_test.git"
+reference = "0a6420ecb6500b60f9f8d560d17fd8a1be8ba083"
+resolved_reference = "0a6420ecb6500b60f9f8d560d17fd8a1be8ba083"
+
+[[package]]
+name = "six"
+version = "1.15.0"
+description = "Python 2 and 3 compatibility utilities"
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "f809780682e2246a6d3d17cbe0cb8db85a4eabf1a501034a178fec7f066c50af"
+
+[metadata.files]
+absl-py = []
+ota42y-python-package-test = []
+six = [
+    {file = "six-1.15.0-py2.py3-none-any.whl", hash = "sha256:8b74bedcbbbaca38ff6d7491d76f2b06b3592611af620f8426e82dddb04a5ced"},
+    {file = "six-1.15.0.tar.gz", hash = "sha256:30639c035cdb23534cd4aa2dd52c3bf48f06e5f4a941509c8bafd8ce11080259"},
+]

@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "local_package"
+version = "0.1.0"
+description = ""
+authors = ["ota42y <ota42y@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+ota42y_python_package_test = {path = "../ota42y_python_package_test"}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

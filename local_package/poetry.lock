@@ -1,0 +1,42 @@
+[[package]]
+name = "absl-py"
+version = "0.11.0"
+description = ""
+category = "main"
+optional = false
+python-versions = "*"
+develop = false
+
+[package.dependencies]
+six = "*"
+
+[package.source]
+type = "git"
+url = "https://github.com/abseil/abseil-py.git"
+reference = "c99edd8e3dffe3667a9f086db86aa259927ac429"
+resolved_reference = "c99edd8e3dffe3667a9f086db86aa259927ac429"
+
+[[package]]
+name = "ota42y-python-package-test"
+version = "0.1.0"
+description = ""
+category = "main"
+optional = false
+python-versions = "^3.8"
+develop = false
+
+[package.dependencies]
+absl-py = "rev c99edd8e3dffe3667a9f086db86aa259927ac429"
+
+[package.source]
+type = "directory"
+url = "../ota42y_python_package_test"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "ca7efde7e0be35f120da8aea472804857aea61e89b8667d47dd405dae293a786"
+
+[metadata.files]
+absl-py = []
+ota42y-python-package-test = []
