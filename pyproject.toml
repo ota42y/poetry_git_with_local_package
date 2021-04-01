@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "remote_package"
+name = "poetry_git_with_local_package"
 version = "0.1.0"
 description = ""
 authors = ["ota42y <ota42y@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-ota42y_python_package_test = {git = "https://github.com/ota42y/ota42y_python_package_test.git", rev = "0a6420ecb6500b60f9f8d560d17fd8a1be8ba083"}
+subdir_package = {path = "./subdir_package"}
 
 [tool.poetry.dev-dependencies]
 

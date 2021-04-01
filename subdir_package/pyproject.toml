@@ -1,12 +1,14 @@
 [tool.poetry]
-name = "local_package"
+name = "subdir_package"
 version = "0.1.0"
 description = ""
-authors = ["ota42y <ota42y@gmail.com>"]
+authors = ["ota42y"]
+license = "MIT"
+homepage = "https://ota42y"
 
 [tool.poetry.dependencies]
 python = "^3.8"
-ota42y_python_package_test = {path = "../ota42y_python_package_test"}
+absl-py = {git = "https://github.com/abseil/abseil-py.git", rev = "c99edd8e3dffe3667a9f086db86aa259927ac429"}
 
 [tool.poetry.dev-dependencies]
 

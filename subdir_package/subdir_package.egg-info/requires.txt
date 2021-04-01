@@ -1,0 +1,1 @@
+absl-py@ git+https://github.com/abseil/abseil-py.git@c99edd8e3dffe3667a9f086db86aa259927ac429
