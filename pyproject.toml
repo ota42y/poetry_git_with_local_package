@@ -6,7 +6,7 @@ authors = ["ota42y <ota42y@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-subdir_package = {path = "./subdir_package"}
+subdir_package = {path = "./subdir_package", develop = true}
 
 [tool.poetry.dev-dependencies]
 
