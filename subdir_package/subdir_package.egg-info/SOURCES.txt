@@ -1,7 +1,0 @@
-setup.py
-subdir_package/__init__.py
-subdir_package.egg-info/PKG-INFO
-subdir_package.egg-info/SOURCES.txt
-subdir_package.egg-info/dependency_links.txt
-subdir_package.egg-info/requires.txt
-subdir_package.egg-info/top_level.txt
