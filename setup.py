@@ -1,10 +1,11 @@
 import os
 from setuptools import setup
 
+PKG_DIR = os.path.dirname(os.path.abspath(__file__))
 setup(
     name="poetry_git_with_local_package",
-    version="0.1.0",
+    version="0.0.1",
     install_requires=[
-        'subdir_package @ file:///localhost/%s/subdir_package/' % os.getcwd().replace('\\', '/'),
+        f"subdir_package @ file://{PKG_DIR}/subdir_package"
     ]
 )
